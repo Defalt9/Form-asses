@@ -2,10 +2,22 @@ body {
     padding: 10px;
   }
   
-  input {
+  input, textarea {
     margin: 10px;
+    width: 100%;
   }
   
   button {
     margin: 10px;
   }
+
+label {
+    display: block;
+    padding: 10px;
+}
+textarea {
+    height: 100px;
+}
+form {
+    margin: 10px;
+}
